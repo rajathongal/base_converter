@@ -100,7 +100,7 @@ describe("convert()", () => {
             expect(converter.convert('10.5', { fromBase: 10, toBase: 2})).toEqual('1010.10');
             expect(converter.convert('10.11', { fromBase: 2, toBase: 10})).toEqual('2.75');
             expect(converter.convert('10.11', { fromBase: 2, toBase: 5})).toEqual('2.33');
-            expect(converter.convert('10.11', { fromBase: 5, toBase: 2})).toEqual('101.00');
+            expect(converter.convert('10.11', { fromBase: 5, toBase: 2})).toEqual('101.001');
         })
     })
 });
