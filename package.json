@@ -7,6 +7,14 @@
   "author": "Rajat Hongal <reachme.rajathongal@gmail.com>",
   "license": "MIT",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajathongal/base_converter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rajathongal/base_converter/issues"
+  },
+  "homepage": "https://github.com/rajathongal/base_converter#readme",
   "scripts": {
     "check-typescript": "tsc --noEmit",
     "clean": "rimraf build",
