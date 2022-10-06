@@ -1,0 +1,8 @@
+{
+    "entryPoints": ["./src"],
+    "out": "docs",
+    "exclude": ["**/*+(index|.test).ts"],
+    "entryPointStrategy": "Expand",
+    "name": "Base Converter",
+    "includeVersion": true
+}
